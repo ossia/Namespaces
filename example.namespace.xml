@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <application author="OSSIA" version="0.0.0" name="myApplicationName" type="proxy">
+  <!--"describe the node below"-->
+  <nodeName object="Container" service="model" priority="0" tag="audio">
+   <!--"describe the sub node below"-->
+   <subNodeName object="Data" service="parameter" type="decimal" rangeBounds="0 255" rangeClipmode="both" priority="1" tag="stuff"/>
+   <!--"describe the sub node below"-->
+   <subNodeName.other>
+	<manyNodes address="instance" instance="10" object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0. 1." rangeClipmode="low" priority="1" tag="foo bar"/>
+   </subNodeName.other>
+  </nodeName>
+ </application>
+</jamoma>
