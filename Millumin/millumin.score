@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <!--protocols setup-->
+ <protocol name="OSC">
+  <millumin port="5000 22222" ip="127.0.0.1"/>
+  <i-score port="13580" ip="127.0.0.1"/>
+ </protocol>
+ <protocol name="Minuit">
+  <i-score port="13579" ip="127.0.0.1"/>
+ </protocol>
+ <!--applications namespace-->
+ <application name="millumin" author="Renaud Rubiano" version="v1" type="proxy" cachedAttributes="">
+  <!--none-->
+  <millumin object="Container" tag="none" service="model" priority="0">
+   <layer object="none">
+    <opacity object="none">
+     <!--none-->
+     <node address="8" object="Data" service="parameter" rampDrive="Max" rampFunction="none" active="1" repetitionsFilter="1" priority="1" tag="none" dataspace="none" rangeBounds="0 100" type="decimal" dataspaceUnit="none" rangeClipmode="none" valueStepsize="0.100000" valueDefault="100"/>
+     <!--none-->
+     <node address="7" object="Data" service="parameter" rampDrive="Max" rampFunction="none" active="1" repetitionsFilter="1" priority="1" tag="none" dataspace="none" rangeBounds="0 100" type="decimal" dataspaceUnit="none" rangeClipmode="none" valueStepsize="0.100000" valueDefault="100"/>
+     <!--none-->
+     <node address="10" object="Data" service="parameter" rampDrive="Max" rampFunction="none" active="1" repetitionsFilter="1" priority="1" tag="none" dataspace="none" rangeBounds="0 100" type="decimal" dataspaceUnit="none" rangeClipmode="none" valueStepsize="0.100000" valueDefault="100"/>
+     <!--none-->
+     <node address="6" object="Data" service="parameter" rampDrive="Max" rampFunction="none" active="1" repetitionsFilter="1" priority="1" tag="none" dataspace="none" rangeBounds="0 100" type="decimal" dataspaceUnit="none" rangeClipmode="none" valueStepsize="0.100000" valueDefault="100"/>
+     <!--none-->
+     <node address="9" object="Data" service="parameter" rampDrive="Max" rampFunction="none" active="1" repetitionsFilter="1" priority="1" tag="none" dataspace="none" rangeBounds="0 100" type="decimal" dataspaceUnit="none" rangeClipmode="none" valueStepsize="0.100000" valueDefault="100"/>
+     <!--none-->
+     <node address="5" object="Data" service="parameter" rampDrive="Max" rampFunction="none" active="1" repetitionsFilter="1" priority="1" tag="none" dataspace="none" rangeBounds="0 100" type="decimal" dataspaceUnit="none" rangeClipmode="none" valueStepsize="0.100000" valueDefault="100"/>
+     <!--none-->
+     <node address="1" object="Data" service="parameter" rampDrive="Max" rampFunction="none" active="1" repetitionsFilter="1" priority="1" tag="none" dataspace="none" rangeBounds="0 100" type="decimal" dataspaceUnit="none" rangeClipmode="none" valueStepsize="0.100000" valueDefault="100"/>
+     <!--none-->
+     <node address="3" object="Data" service="parameter" rampDrive="Max" rampFunction="none" active="1" repetitionsFilter="1" priority="1" tag="none" dataspace="none" rangeBounds="0 100" type="decimal" dataspaceUnit="none" rangeClipmode="none" valueStepsize="0.100000" valueDefault="100"/>
+     <!--none-->
+     <node address="2" object="Data" service="parameter" rampDrive="Max" rampFunction="none" active="1" repetitionsFilter="1" priority="1" tag="none" dataspace="none" rangeBounds="0 100" type="decimal" dataspaceUnit="none" rangeClipmode="none" valueStepsize="0.100000" valueDefault="100"/>
+     <!--none-->
+     <node address="4" object="Data" service="parameter" rampDrive="Max" rampFunction="none" active="1" repetitionsFilter="1" priority="1" tag="none" dataspace="none" rangeBounds="0 100" type="decimal" dataspaceUnit="none" rangeClipmode="none" valueStepsize="0.100000" valueDefault="100"/>
+    </opacity>
+   </layer>
+  </millumin>
+ </application>
+ <application name="i-score" author="" version="" type="local" cachedAttributes="">
+  <!---->
+  <Box.2 object="Automation" curveAddresses="millumin:/millumin/layer/opacity/1" rigid="0" position="0.000000" duration="7168u" date="0.000000" endCondition="0" verticalSize="272u" verticalPosition="120u" durationMin="0u" endDate="8272u" externalTick="0" startCondition="0" compiled="0" running="0" speed="1.000000" durationMax="0u" startDate="1104u" mute="0" color="60 60 60" name="Box.2" container="140597546477696"/>
+  <!---->
+  <Main object="Scenario" viewPosition="0 0" viewZoom="1.000000 1.000000" timeEvents="107202386899536 107202386911632" timeProcesses="140597547809840 140597547859968" rigid="0" position="0.000000" duration="36000000u" date="0.000000" endCondition="0" verticalSize="1u" verticalPosition="0u" durationMin="0u" endDate="36000000u" externalTick="0" startCondition="0" compiled="0" running="0" speed="1.000000" durationMax="0u" startDate="0u" mute="0" color="255 255 255" name="Main" container="0"/>
+ </application>
+ <Scenario name="Main" mute="0" color="255 255 255" viewZoom="1.000000 1.000000" viewPosition="0 0">
+  <startEvent name="start" date="0u" mute="0"/>
+  <endEvent name="end" date="36000000u" mute="0"/>
+  <event name="j2717298079" date="1104u" mute="0">
+   <command address="millumin:/millumin/layer/opacity/1">0.000000</command>
+  </event>
+  <event name="j363517910" date="8272u" mute="0">
+   <command address="millumin:/millumin/layer/opacity/1">100.000000</command>
+  </event>
+  <Automation name="Box.2" start="j2717298079" end="j363517910" mute="0" color="60 60 60" verticalPosition="120u" verticalSize="272u">
+   <indexedCurves address="millumin:/millumin/layer/opacity/1">
+    <curve active="1" redundancy="0" sampleRate="40u" function="0.000000 0.000000 1.000000 1.000000 100.000000 1.000000"/>
+   </indexedCurves>
+  </Automation>
+  <Scenario name="j10856876" start="j2717298079" end="j363517910" mute="0" color="255 255 255" verticalPosition="0u" verticalSize="1u"/>
+ </Scenario>
+</jamoma>
