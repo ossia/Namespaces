@@ -12,10 +12,18 @@
  <application name="VDMX" author="Renaud Rubiano" version="v1" type="proxy">
   <!--none-->
   <node address="layer.1" object="Container" tags="none" service="model" priority="10">
-   <!--none-->
-   <node address="alpha" object="Data" service="parameter" dataspaceUnit="none" rampDrive="system" dataspace="none" rangeClipmode="none" active="1" tags="none" valueStepsize="0.100000" repetitionsFilter="1" priority="0" rangeBounds="0 1" type="decimal" valueDefault="1.000000" rampFunction="none"/>
-  </node>
-  <node address="layer.2" object="Container" tags="none" service="model" priority="10">
+   <node address="scale">
+    <!--none-->
+    <node address="y" object="Data" service="parameter" dataspaceUnit="none" rampDrive="system" dataspace="none" rangeClipmode="none" active="1" tags="none" valueStepsize="0.100000" repetitionsFilter="1" priority="0" rangeBounds="0 1" type="decimal" valueDefault="0.500000" rampFunction="none"/>
+    <!--none-->
+    <node address="x" object="Data" service="parameter" dataspaceUnit="none" rampDrive="system" dataspace="none" rangeClipmode="none" active="1" tags="none" valueStepsize="0.100000" repetitionsFilter="1" priority="0" rangeBounds="0 1" type="decimal" valueDefault="0.500000" rampFunction="none"/>
+   </node>
+   <node address="position">
+    <!--none-->
+    <node address="y" object="Data" service="parameter" dataspaceUnit="none" rampDrive="system" dataspace="none" rangeClipmode="none" active="1" tags="none" valueStepsize="0.100000" repetitionsFilter="1" priority="0" rangeBounds="0 1" type="decimal" valueDefault="0.500000" rampFunction="none"/>
+    <!--none-->
+    <node address="x" object="Data" service="parameter" dataspaceUnit="none" rampDrive="system" dataspace="none" rangeClipmode="none" active="1" tags="none" valueStepsize="0.100000" repetitionsFilter="1" priority="0" rangeBounds="0 1" type="decimal" valueDefault="0.500000" rampFunction="none"/>
+   </node>
    <!--none-->
    <node address="alpha" object="Data" service="parameter" dataspaceUnit="none" rampDrive="system" dataspace="none" rangeClipmode="none" active="1" tags="none" valueStepsize="0.100000" repetitionsFilter="1" priority="0" rangeBounds="0 1" type="decimal" valueDefault="1.000000" rampFunction="none"/>
   </node>
@@ -27,11 +35,17 @@
  <Scenario name="Main" mute="0" color="255 255 255" viewZoom="1.000000 1.000000" viewPosition="0 0">
   <startEvent name="start" date="0u" mute="0"/>
   <endEvent name="end" date="36000000u" mute="0"/>
-  <event name="j3999234003" date="6800u" mute="0">
-   <command address="VDMX:/layer.1/alpha">1.000000</command>
+  <event name="j4267351298" date="480u" mute="0">
+   <command address="VDMX:/layer.1/alpha">0.000000</command>
+   <command address="VDMX:/layer.1/position/x">0</command>
+   <command address="VDMX:/layer.1/position/y">0</command>
   </event>
-  <event name="j3749284218" date="12064u" mute="0"/>
-  <Automation name="Box.2" start="j3999234003" end="j3749284218" mute="0" color="60 60 60" verticalPosition="69u" verticalSize="260u"/>
-  <Scenario name="j2609565434" start="j3999234003" end="j3749284218" mute="0" color="255 255 255" verticalPosition="0u" verticalSize="1u"/>
+  <event name="j912168078" date="6416u" mute="0">
+   <command address="VDMX:/layer.1/alpha">1</command>
+   <command address="VDMX:/layer.1/position/x">0.500000</command>
+   <command address="VDMX:/layer.1/position/y">0.500000</command>
+  </event>
+  <Automation name="Box.2" start="j4267351298" end="j912168078" mute="0" color="60 60 60" verticalPosition="62u" verticalSize="226u"/>
+  <Scenario name="j3541053065" start="j4267351298" end="j912168078" mute="0" color="255 255 255" verticalPosition="0u" verticalSize="1u"/>
  </Scenario>
 </jamoma>

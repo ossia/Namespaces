@@ -3,10 +3,15 @@
  <application author="Renaud Rubiano" version="v1" name="VDMX" type="proxy">
 	<layer.1 object="Container" service="model" priority="10">
 		<alpha object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="1.000"/>
+		<position>
+			<x object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="0.5"/>
+			<y object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="0.5"/>
+		</position>
+		<scale>
+			<x object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="0.5"/>
+			<y object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="0.5"/>
+		</scale>
 	</layer.1>
-	<layer.2 object="Container" service="model" priority="10">
-		<alpha object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="1.000"/>
-	</layer.2>
  </application>>
 </jamoma>
 
