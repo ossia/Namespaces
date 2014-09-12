@@ -4,6 +4,9 @@
 	<layer.1 object="Container" service="model" priority="10">
 		<alpha object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="1.000"/>
 	</layer.1>
+	<layer.2 object="Container" service="model" priority="10">
+		<alpha object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="1.000"/>
+	</layer.2>
  </application>>
 </jamoma>
 
