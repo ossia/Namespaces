@@ -2,7 +2,7 @@
 <jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
  <application author="Renaud Rubiano" version="v1" name="dlight" type="proxy">
   <circ object="Container" service="model" priority="0">
-<node address="instance" object="Data" instance="2048" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 255" priority="1" valueDefault="0"/>
+<node address="instance" object="Data" instance="512" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 255" priority="1" valueDefault="0"/>
 		</circ>
  </application>>
 </jamoma>
