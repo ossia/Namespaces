@@ -82,10 +82,10 @@
 <node address="0" object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="26" valueDefault="0"/>
 </ctrl_master_crossfader_slider>
 <ctrl_layer_mediaSet>
-<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 8" priority="10" valueDefault="0"/>
+<node address="instance" object="Data" instance="10" service="parameter" type="integer" repetitionsFilter="1" rangeBounds="0 8" priority="10" valueDefault="0"/>
 </ctrl_layer_mediaSet>
 <ctrl_layer_media>
-<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 132" priority="2" valueDefault="999"/>
+<node address="instance" object="Data" instance="10" service="parameter" type="integer" repetitionsFilter="1" rangeBounds="0 132" priority="2" valueDefault="999"/>
 </ctrl_layer_media>
 <ctrl_layer_auto_colorCurve>
 <node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="3" valueDefault="3"/>
@@ -465,9 +465,6 @@
 <ctrl_layer_focused>
 <node address="instance" object="Data" instance="10" service="return" type="boolean" rangeBounds="0 1" priority="1028"/>
 </ctrl_layer_focused>
-<ctrl_layer_stackPosition>
-<node address="instance" object="Data" instance="10" service="return" type="integer" rangeBounds="0 10" priority="1029"/>
-</ctrl_layer_stackPosition>
 <ctrl_layer_activated>
 <node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1030" valueDefault="1"/>
 </ctrl_layer_activated>
