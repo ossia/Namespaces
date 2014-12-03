@@ -465,9 +465,6 @@
 <ctrl_layer_focused>
 <node address="instance" object="Data" instance="10" service="return" type="boolean" rangeBounds="0 1" priority="1028"/>
 </ctrl_layer_focused>
-<ctrl_layer_activated>
-<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 1" priority="1030" valueDefault="1"/>
-</ctrl_layer_activated>
   </md8key>
  </application>>
 </jamoma>
