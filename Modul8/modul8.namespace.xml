@@ -355,7 +355,7 @@
 <node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 1" priority="91" valueDefault="0.500000"/>
 </ctrl_layer_scale_uniform>
 <ctrl_layer_scale_factorXYZ>
-<node address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeBounds="0 10" priority="92" valueDefault="10"/>
+<node address="instance" object="Data" instance="10" service="parameter" type="integer" repetitionsFilter="1" rangeBounds="1 99" priority="92" valueDefault="1"/>
 </ctrl_layer_scale_factorXYZ>
 <ctrl_layer_scale_factorUniform>
 <node address="instance" object="Data" instance="10" service="parameter" type="decimal" repetitionsFilter="1" rangeBounds="0 2" priority="93" valueDefault="2"/>
