@@ -177,8 +177,8 @@
             <blendMode object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 5" priority="121" valueDefault="0"/>
             <record_stopPlayRec object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="122" valueDefault="0"/>
             <position object="Container" priority="0">
-                <y object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="123" valueDefault="0"/>
-                <x object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="124" valueDefault="0"/>
+                <y object="Data" service="parameter" type="decimal" repetitionsFilter="1" priority="123" valueDefault="0"/>
+                <x object="Data" service="parameter" type="decimal" repetitionsFilter="1" priority="124" valueDefault="0"/>
             </position>
             <hidden object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="125" valueDefault="0"/>
             <alpha object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="126" valueDefault="1"/>
