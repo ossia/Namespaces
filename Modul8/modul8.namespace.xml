@@ -31,7 +31,7 @@
         </master>
         <node address="layer" object="Container" instance="10" service="model" priority="0">
             <mediaSet object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 8" priority="1" valueDefault="0"/>
-            <media object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 135" priority="2" valueDefault="999"/>
+            <media object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 999" priority="2" valueDefault="999"/>
             <auto object="Container" priority="0">
                 <colorCurve object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="3" valueDefault="3"/>
                 <colorOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="4" valueDefault="0"/>
@@ -66,8 +66,8 @@
                 <scaleSpeed object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="31" valueDefault="0"/>
             </auto>
             <transformer object="Container" priority="0">
-                <on address="instance" object="Data" instance="10" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="32" valueDefault="0"/>
-                <type address="instance" object="Data" instance="10" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 2" priority="33" valueDefault="0"/>
+                <on object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="32" valueDefault="0"/>
+                <type object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 2" priority="33" valueDefault="0"/>
                 <particle object="Container" priority="0">
                     <applyLocalAngleOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="34" valueDefault="1"/>
                     <scaleFadeOut object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="35" valueDefault="0"/>
