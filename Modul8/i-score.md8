@@ -460,10 +460,10 @@
 					</array>
 					<key>(g3_ASCII)fx_autoCol_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.600584</string>
-						<string>(g3_FLOAT)0.600584</string>
-						<string>(g3_FLOAT)0.600584</string>
-						<string>(g3_FLOAT)0.600584</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoCol_soundBeatPosition</key>
 					<array>
@@ -493,8 +493,8 @@
 					</array>
 					<key>(g3_ASCII)fx_autoMove_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.600584</string>
-						<string>(g3_FLOAT)0.600584</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -555,9 +555,9 @@
 					</array>
 					<key>(g3_ASCII)fx_autoScale_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.600584</string>
-						<string>(g3_FLOAT)0.600584</string>
-						<string>(g3_FLOAT)0.600584</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoScale_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -931,7 +931,7 @@
 					<key>(g3_ASCII)fieldOfView</key>
 					<string>(g3_FLOAT)60.000000</string>
 					<key>(g3_ASCII)forceMovieTimePosition</key>
-					<string>(g3_NONE)-</string>
+					<string>(g3_FLOAT)0.000000</string>
 					<key>(g3_ASCII)fx_AnglesDelta</key>
 					<array>
 						<string>(g3_INT)0</string>
@@ -988,10 +988,10 @@
 					</array>
 					<key>(g3_ASCII)fx_autoCol_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.785253</string>
-						<string>(g3_FLOAT)0.785253</string>
-						<string>(g3_FLOAT)0.785253</string>
-						<string>(g3_FLOAT)0.785253</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoCol_soundBeatPosition</key>
 					<array>
@@ -1021,8 +1021,8 @@
 					</array>
 					<key>(g3_ASCII)fx_autoMove_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.785253</string>
-						<string>(g3_FLOAT)0.785253</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -1083,9 +1083,9 @@
 					</array>
 					<key>(g3_ASCII)fx_autoScale_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.785253</string>
-						<string>(g3_FLOAT)0.785253</string>
-						<string>(g3_FLOAT)0.785253</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoScale_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -1332,6 +1332,8 @@
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transitionMediaType</key>
 					<string>(g3_INT)0</string>
+					<key>(g3_INT)1</key>
+					<string>(g3_INT)1</string>
 				</dict>
 				<dict>
 					<key>(g3_ASCII)absAngles</key>
@@ -1459,7 +1461,7 @@
 					<key>(g3_ASCII)fieldOfView</key>
 					<string>(g3_FLOAT)60.000000</string>
 					<key>(g3_ASCII)forceMovieTimePosition</key>
-					<string>(g3_NONE)-</string>
+					<string>(g3_FLOAT)0.000000</string>
 					<key>(g3_ASCII)fx_AnglesDelta</key>
 					<array>
 						<string>(g3_INT)0</string>
@@ -1516,10 +1518,10 @@
 					</array>
 					<key>(g3_ASCII)fx_autoCol_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.191816</string>
-						<string>(g3_FLOAT)0.191816</string>
-						<string>(g3_FLOAT)0.191816</string>
-						<string>(g3_FLOAT)0.191816</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoCol_soundBeatPosition</key>
 					<array>
@@ -1549,8 +1551,8 @@
 					</array>
 					<key>(g3_ASCII)fx_autoMove_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.191816</string>
-						<string>(g3_FLOAT)0.191816</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -1611,9 +1613,9 @@
 					</array>
 					<key>(g3_ASCII)fx_autoScale_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.191816</string>
-						<string>(g3_FLOAT)0.191816</string>
-						<string>(g3_FLOAT)0.191816</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoScale_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -1860,6 +1862,10 @@
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transitionMediaType</key>
 					<string>(g3_INT)0</string>
+					<key>(g3_INT)1</key>
+					<string>(g3_INT)1</string>
+					<key>(g3_INT)2</key>
+					<string>(g3_INT)2</string>
 				</dict>
 				<dict>
 					<key>(g3_ASCII)absAngles</key>
@@ -1987,7 +1993,7 @@
 					<key>(g3_ASCII)fieldOfView</key>
 					<string>(g3_FLOAT)60.000000</string>
 					<key>(g3_ASCII)forceMovieTimePosition</key>
-					<string>(g3_NONE)-</string>
+					<string>(g3_FLOAT)0.000000</string>
 					<key>(g3_ASCII)fx_AnglesDelta</key>
 					<array>
 						<string>(g3_INT)0</string>
@@ -2044,10 +2050,10 @@
 					</array>
 					<key>(g3_ASCII)fx_autoCol_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.830497</string>
-						<string>(g3_FLOAT)0.830497</string>
-						<string>(g3_FLOAT)0.830497</string>
-						<string>(g3_FLOAT)0.830497</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoCol_soundBeatPosition</key>
 					<array>
@@ -2077,8 +2083,8 @@
 					</array>
 					<key>(g3_ASCII)fx_autoMove_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.830497</string>
-						<string>(g3_FLOAT)0.830497</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -2139,9 +2145,9 @@
 					</array>
 					<key>(g3_ASCII)fx_autoScale_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.830497</string>
-						<string>(g3_FLOAT)0.830497</string>
-						<string>(g3_FLOAT)0.830497</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoScale_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -2388,6 +2394,12 @@
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transitionMediaType</key>
 					<string>(g3_INT)0</string>
+					<key>(g3_INT)1</key>
+					<string>(g3_INT)1</string>
+					<key>(g3_INT)2</key>
+					<string>(g3_INT)2</string>
+					<key>(g3_INT)3</key>
+					<string>(g3_INT)3</string>
 				</dict>
 				<dict>
 					<key>(g3_ASCII)absAngles</key>
@@ -2515,7 +2527,7 @@
 					<key>(g3_ASCII)fieldOfView</key>
 					<string>(g3_FLOAT)60.000000</string>
 					<key>(g3_ASCII)forceMovieTimePosition</key>
-					<string>(g3_NONE)-</string>
+					<string>(g3_FLOAT)0.000000</string>
 					<key>(g3_ASCII)fx_AnglesDelta</key>
 					<array>
 						<string>(g3_INT)0</string>
@@ -2572,10 +2584,10 @@
 					</array>
 					<key>(g3_ASCII)fx_autoCol_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.480676</string>
-						<string>(g3_FLOAT)0.480676</string>
-						<string>(g3_FLOAT)0.480676</string>
-						<string>(g3_FLOAT)0.480676</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoCol_soundBeatPosition</key>
 					<array>
@@ -2605,8 +2617,8 @@
 					</array>
 					<key>(g3_ASCII)fx_autoMove_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.480676</string>
-						<string>(g3_FLOAT)0.480676</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -2667,9 +2679,9 @@
 					</array>
 					<key>(g3_ASCII)fx_autoScale_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.480676</string>
-						<string>(g3_FLOAT)0.480676</string>
-						<string>(g3_FLOAT)0.480676</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoScale_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -2916,6 +2928,14 @@
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transitionMediaType</key>
 					<string>(g3_INT)0</string>
+					<key>(g3_INT)1</key>
+					<string>(g3_INT)1</string>
+					<key>(g3_INT)2</key>
+					<string>(g3_INT)2</string>
+					<key>(g3_INT)3</key>
+					<string>(g3_INT)3</string>
+					<key>(g3_INT)4</key>
+					<string>(g3_INT)4</string>
 				</dict>
 			</array>
 			<array>
@@ -18671,7 +18691,7 @@
 					<key>(g3_ASCII)fieldOfView</key>
 					<string>(g3_FLOAT)60.000000</string>
 					<key>(g3_ASCII)forceMovieTimePosition</key>
-					<string>(g3_NONE)-</string>
+					<string>(g3_FLOAT)0.000000</string>
 					<key>(g3_ASCII)fx_AnglesDelta</key>
 					<array>
 						<string>(g3_INT)0</string>
@@ -18728,10 +18748,10 @@
 					</array>
 					<key>(g3_ASCII)fx_autoCol_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.046215</string>
-						<string>(g3_FLOAT)0.046215</string>
-						<string>(g3_FLOAT)0.046215</string>
-						<string>(g3_FLOAT)0.046215</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoCol_soundBeatPosition</key>
 					<array>
@@ -18761,8 +18781,8 @@
 					</array>
 					<key>(g3_ASCII)fx_autoMove_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.046215</string>
-						<string>(g3_FLOAT)0.046215</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -18823,9 +18843,9 @@
 					</array>
 					<key>(g3_ASCII)fx_autoScale_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.046215</string>
-						<string>(g3_FLOAT)0.046215</string>
-						<string>(g3_FLOAT)0.046215</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoScale_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -19072,6 +19092,16 @@
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transitionMediaType</key>
 					<string>(g3_INT)0</string>
+					<key>(g3_INT)1</key>
+					<string>(g3_INT)1</string>
+					<key>(g3_INT)2</key>
+					<string>(g3_INT)2</string>
+					<key>(g3_INT)3</key>
+					<string>(g3_INT)3</string>
+					<key>(g3_INT)4</key>
+					<string>(g3_INT)4</string>
+					<key>(g3_INT)40</key>
+					<string>(g3_INT)40</string>
 				</dict>
 				<dict>
 					<key>(g3_ASCII)absAngles</key>
@@ -19199,7 +19229,7 @@
 					<key>(g3_ASCII)fieldOfView</key>
 					<string>(g3_FLOAT)60.000000</string>
 					<key>(g3_ASCII)forceMovieTimePosition</key>
-					<string>(g3_NONE)-</string>
+					<string>(g3_FLOAT)0.000000</string>
 					<key>(g3_ASCII)fx_AnglesDelta</key>
 					<array>
 						<string>(g3_INT)0</string>
@@ -19256,10 +19286,10 @@
 					</array>
 					<key>(g3_ASCII)fx_autoCol_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.836838</string>
-						<string>(g3_FLOAT)0.836838</string>
-						<string>(g3_FLOAT)0.836838</string>
-						<string>(g3_FLOAT)0.836838</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoCol_soundBeatPosition</key>
 					<array>
@@ -19289,8 +19319,8 @@
 					</array>
 					<key>(g3_ASCII)fx_autoMove_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.836838</string>
-						<string>(g3_FLOAT)0.836838</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -19351,9 +19381,9 @@
 					</array>
 					<key>(g3_ASCII)fx_autoScale_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.836838</string>
-						<string>(g3_FLOAT)0.836838</string>
-						<string>(g3_FLOAT)0.836838</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoScale_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -19600,6 +19630,24 @@
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transitionMediaType</key>
 					<string>(g3_INT)0</string>
+					<key>(g3_INT)1</key>
+					<string>(g3_INT)1</string>
+					<key>(g3_INT)2</key>
+					<string>(g3_INT)2</string>
+					<key>(g3_INT)3</key>
+					<string>(g3_INT)3</string>
+					<key>(g3_INT)4</key>
+					<string>(g3_INT)4</string>
+					<key>(g3_INT)40</key>
+					<string>(g3_INT)40</string>
+					<key>(g3_INT)41</key>
+					<string>(g3_INT)41</string>
+					<key>(g3_INT)42</key>
+					<string>(g3_INT)42</string>
+					<key>(g3_INT)43</key>
+					<string>(g3_INT)43</string>
+					<key>(g3_INT)44</key>
+					<string>(g3_INT)44</string>
 				</dict>
 				<dict>
 					<key>(g3_ASCII)absAngles</key>
@@ -19727,7 +19775,7 @@
 					<key>(g3_ASCII)fieldOfView</key>
 					<string>(g3_FLOAT)60.000000</string>
 					<key>(g3_ASCII)forceMovieTimePosition</key>
-					<string>(g3_NONE)-</string>
+					<string>(g3_FLOAT)0.000000</string>
 					<key>(g3_ASCII)fx_AnglesDelta</key>
 					<array>
 						<string>(g3_INT)0</string>
@@ -19784,10 +19832,10 @@
 					</array>
 					<key>(g3_ASCII)fx_autoCol_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.405936</string>
-						<string>(g3_FLOAT)0.405936</string>
-						<string>(g3_FLOAT)0.405936</string>
-						<string>(g3_FLOAT)0.405936</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoCol_soundBeatPosition</key>
 					<array>
@@ -19817,8 +19865,8 @@
 					</array>
 					<key>(g3_ASCII)fx_autoMove_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.405936</string>
-						<string>(g3_FLOAT)0.405936</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -19879,9 +19927,9 @@
 					</array>
 					<key>(g3_ASCII)fx_autoScale_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.405936</string>
-						<string>(g3_FLOAT)0.405936</string>
-						<string>(g3_FLOAT)0.405936</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoScale_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -20128,6 +20176,22 @@
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transitionMediaType</key>
 					<string>(g3_INT)0</string>
+					<key>(g3_INT)1</key>
+					<string>(g3_INT)1</string>
+					<key>(g3_INT)2</key>
+					<string>(g3_INT)2</string>
+					<key>(g3_INT)3</key>
+					<string>(g3_INT)3</string>
+					<key>(g3_INT)4</key>
+					<string>(g3_INT)4</string>
+					<key>(g3_INT)40</key>
+					<string>(g3_INT)40</string>
+					<key>(g3_INT)42</key>
+					<string>(g3_INT)42</string>
+					<key>(g3_INT)43</key>
+					<string>(g3_INT)43</string>
+					<key>(g3_INT)44</key>
+					<string>(g3_INT)44</string>
 				</dict>
 				<dict>
 					<key>(g3_ASCII)absAngles</key>
@@ -20255,7 +20319,7 @@
 					<key>(g3_ASCII)fieldOfView</key>
 					<string>(g3_FLOAT)60.000000</string>
 					<key>(g3_ASCII)forceMovieTimePosition</key>
-					<string>(g3_NONE)-</string>
+					<string>(g3_FLOAT)0.000000</string>
 					<key>(g3_ASCII)fx_AnglesDelta</key>
 					<array>
 						<string>(g3_INT)0</string>
@@ -20312,10 +20376,10 @@
 					</array>
 					<key>(g3_ASCII)fx_autoCol_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.354259</string>
-						<string>(g3_FLOAT)0.354259</string>
-						<string>(g3_FLOAT)0.354259</string>
-						<string>(g3_FLOAT)0.354259</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoCol_soundBeatPosition</key>
 					<array>
@@ -20345,8 +20409,8 @@
 					</array>
 					<key>(g3_ASCII)fx_autoMove_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.354259</string>
-						<string>(g3_FLOAT)0.354259</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -20407,9 +20471,9 @@
 					</array>
 					<key>(g3_ASCII)fx_autoScale_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.354259</string>
-						<string>(g3_FLOAT)0.354259</string>
-						<string>(g3_FLOAT)0.354259</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoScale_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -20656,6 +20720,20 @@
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transitionMediaType</key>
 					<string>(g3_INT)0</string>
+					<key>(g3_INT)1</key>
+					<string>(g3_INT)1</string>
+					<key>(g3_INT)2</key>
+					<string>(g3_INT)2</string>
+					<key>(g3_INT)3</key>
+					<string>(g3_INT)3</string>
+					<key>(g3_INT)4</key>
+					<string>(g3_INT)4</string>
+					<key>(g3_INT)40</key>
+					<string>(g3_INT)40</string>
+					<key>(g3_INT)43</key>
+					<string>(g3_INT)43</string>
+					<key>(g3_INT)44</key>
+					<string>(g3_INT)44</string>
 				</dict>
 				<dict>
 					<key>(g3_ASCII)absAngles</key>
@@ -20783,7 +20861,7 @@
 					<key>(g3_ASCII)fieldOfView</key>
 					<string>(g3_FLOAT)60.000000</string>
 					<key>(g3_ASCII)forceMovieTimePosition</key>
-					<string>(g3_NONE)-</string>
+					<string>(g3_FLOAT)0.000000</string>
 					<key>(g3_ASCII)fx_AnglesDelta</key>
 					<array>
 						<string>(g3_INT)0</string>
@@ -20840,10 +20918,10 @@
 					</array>
 					<key>(g3_ASCII)fx_autoCol_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.189207</string>
-						<string>(g3_FLOAT)0.189207</string>
-						<string>(g3_FLOAT)0.189207</string>
-						<string>(g3_FLOAT)0.189207</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoCol_soundBeatPosition</key>
 					<array>
@@ -20873,8 +20951,8 @@
 					</array>
 					<key>(g3_ASCII)fx_autoMove_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.189207</string>
-						<string>(g3_FLOAT)0.189207</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoMove_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -20935,9 +21013,9 @@
 					</array>
 					<key>(g3_ASCII)fx_autoScale_randomValues</key>
 					<array>
-						<string>(g3_FLOAT)0.189207</string>
-						<string>(g3_FLOAT)0.189207</string>
-						<string>(g3_FLOAT)0.189207</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
+						<string>(g3_FLOAT)0.339585</string>
 					</array>
 					<key>(g3_ASCII)fx_autoScale_rate</key>
 					<string>(g3_FLOAT)0.000000</string>
@@ -21184,6 +21262,18 @@
 					<string>(g3_INT)1</string>
 					<key>(g3_ASCII)transitionMediaType</key>
 					<string>(g3_INT)0</string>
+					<key>(g3_INT)1</key>
+					<string>(g3_INT)1</string>
+					<key>(g3_INT)2</key>
+					<string>(g3_INT)2</string>
+					<key>(g3_INT)3</key>
+					<string>(g3_INT)3</string>
+					<key>(g3_INT)4</key>
+					<string>(g3_INT)4</string>
+					<key>(g3_INT)40</key>
+					<string>(g3_INT)40</string>
+					<key>(g3_INT)44</key>
+					<string>(g3_INT)44</string>
 				</dict>
 			</array>
 			<array>
@@ -39049,6 +39139,23 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>OSC (rewrite)</key>
+		<dict>
+			<key>(g3_ASCII)-1</key>
+			<dict>
+				<key>(g3_ASCII)__AUTO_SERIALIZE</key>
+				<dict>
+					<key>(g3_ASCII)47</key>
+					<string>(g3_INT)1</string>
+					<key>(g3_ASCII)48</key>
+					<string>(g3_INT)0</string>
+					<key>(g3_ASCII)57</key>
+					<string>(g3_INT)0</string>
+					<key>(g3_ASCII)58</key>
+					<string>localhost</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>Painter (layer)</key>
 		<dict/>
 		<key>Perspective Transform</key>
@@ -39065,6 +39172,10 @@
 				<dict/>
 			</dict>
 		</dict>
+		<key>Vezer Background color (Master)</key>
+		<dict/>
+		<key>Vezer OSC (global)</key>
+		<dict/>
 	</dict>
 	<key>(g3_ASCII)modules_state</key>
 	<array>
@@ -39090,7 +39201,7 @@
 			<key>(g3_ASCII)name</key>
 			<string>DMX fixture (dmx)</string>
 			<key>(g3_ASCII)state</key>
-			<string>(g3_ASCII)Playing</string>
+			<string>(g3_ASCII)Stopped</string>
 		</dict>
 		<dict>
 			<key>(g3_ASCII)name</key>
@@ -39120,11 +39231,11 @@
 			<key>(g3_ASCII)name</key>
 			<string>OSC (global)</string>
 			<key>(g3_ASCII)state</key>
-			<string>(g3_ASCII)Paused</string>
+			<string>(g3_ASCII)Stopped</string>
 		</dict>
 		<dict>
 			<key>(g3_ASCII)name</key>
-			<string>OSC (i-score)</string>
+			<string>OSC (rewrite)</string>
 			<key>(g3_ASCII)state</key>
 			<string>(g3_ASCII)Playing</string>
 		</dict>
@@ -39156,7 +39267,19 @@
 			<key>(g3_ASCII)name</key>
 			<string>TEXT (layer)</string>
 			<key>(g3_ASCII)state</key>
-			<string>(g3_ASCII)Playing</string>
+			<string>(g3_ASCII)Stopped</string>
+		</dict>
+		<dict>
+			<key>(g3_ASCII)name</key>
+			<string>Vezer Background color (Master)</string>
+			<key>(g3_ASCII)state</key>
+			<string>(g3_ASCII)Stopped</string>
+		</dict>
+		<dict>
+			<key>(g3_ASCII)name</key>
+			<string>Vezer OSC (global)</string>
+			<key>(g3_ASCII)state</key>
+			<string>(g3_ASCII)Stopped</string>
 		</dict>
 	</array>
 	<key>(g3_ASCII)v255Ready</key>
