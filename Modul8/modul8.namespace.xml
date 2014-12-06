@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
-	<application author="Renaud Rubiano" version="2" name="modul8" type="proxy">
+    <application author="Renaud Rubiano" version="2" name="modul8" type="proxy">
         <master object="Container" service="model" priority="0">
             <still object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="1" valueDefault="0"/>
             <flash object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="2" valueDefault="0"/>
@@ -29,7 +29,7 @@
             <crossfader_alphaGroupBOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="25" valueDefault="0"/>
             <crossfader_slider object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="26" valueDefault="0"/>
         </master>
-		<node address="layer" object="Container" instance="10" service="model" priority="0">
+        <node address="layer" object="Container" instance="10" service="model" priority="0">
             <mediaSet object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 8" priority="1" valueDefault="0"/>
             <media object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 135" priority="2" valueDefault="999"/>
             <auto object="Container" priority="0">
@@ -107,7 +107,7 @@
                     <zValue object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 10" priority="65" valueDefault="1"/>
                     <yValue object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 10" priority="66" valueDefault="2"/>
                     <xValue object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 10" priority="67" valueDefault="2"/>
-                    <resize object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="68" valueDefault="1"/><
+                    <resize object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="68" valueDefault="1"/>
                 </matrix>
             </transformer>
             <transition object="Container" priority="0">
@@ -185,7 +185,7 @@
             <record object="Container" priority="0">
                 <eraseOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="127" valueDefault="0"/>
             </record>
-			<focused object="Data" service="parameter" type="boolean" rangeBounds="0 1" priority="128"/>
-    	</node> <!-- layer -->
-    </application>>
+            <focused object="Data" service="parameter" type="boolean" rangeBounds="0 1" priority="128"/>
+        </node>
+    </application>
 </jamoma>
