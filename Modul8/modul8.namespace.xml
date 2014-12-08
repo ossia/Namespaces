@@ -54,10 +54,9 @@
                 <moveXY object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 2" priority="21" valueDefault="0"/>
                 <moveStrob object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="22" valueDefault="0"/>
                 <moveSpeed object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="23" valueDefault="0"/>
-                <moveSize object="Container" priority="0">
+                <moveSize object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="25" valueDefault="0">
                     <factor object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="1 8" priority="24" valueDefault="1"/>
                 </moveSize>
-                <moveSize object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="25" valueDefault="0"/>
                 <scaleCurve object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 9" priority="26" valueDefault="0"/>
                 <scaleOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="27" valueDefault="0"/>
                 <scaleXY_ object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 4" priority="28" valueDefault="0"/>
@@ -185,7 +184,6 @@
             <record object="Container" priority="0">
                 <eraseOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="127" valueDefault="0"/>
             </record>
-            <focused object="Data" service="parameter" type="boolean" rangeBounds="0 1" priority="128"/>
         </node>
     </application>
 </jamoma>
