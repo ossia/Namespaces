@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
     <application author="Renaud Rubiano" version="2" name="modul8" type="proxy">
+        <ui object="Container" service="model" priority="0">
+            <focus object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="1 10" priority="0" valueDefault="1"/>
+        </ui>
         <master object="Container" service="model" priority="0">
             <still object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="1" valueDefault="0"/>
             <flash object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="2" valueDefault="0"/>
@@ -23,11 +26,13 @@
             <TimeRecPosition object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="19" valueDefault="0"/>
             <layerSetGroupB object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 7" priority="20" valueDefault="0"/>
             <layerSetGroupA object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 7" priority="21" valueDefault="0"/>
-            <crossfader_scaleGroupAOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="22" valueDefault="0"/>
-            <crossfader_alphaGroupAOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="23" valueDefault="0"/>
-            <crossfader_scaleGroupBOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="24" valueDefault="0"/>
-            <crossfader_alphaGroupBOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="25" valueDefault="0"/>
-            <crossfader_slider object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="26" valueDefault="0"/>
+            <crossfader>
+                <scaleGroupAOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="22" valueDefault="0"/>
+                <alphaGroupAOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="23" valueDefault="0"/>
+                <scaleGroupBOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="24" valueDefault="0"/>
+                <alphaGroupBOn object="Data" service="parameter" type="boolean" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="25" valueDefault="0"/>
+                <slider object="Data" service="parameter" type="decimal" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 1" priority="26" valueDefault="0"/>
+            </crossfader>
         </master>
         <node address="layer" object="Container" instance="10" service="model" priority="0">
             <mediaSet object="Data" service="parameter" type="integer" repetitionsFilter="1" rangeClipmode="both" rangeBounds="0 8" priority="1" valueDefault="0"/>
