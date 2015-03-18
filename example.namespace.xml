@@ -1,19 +1,19 @@
 <!--
 		Le namespace, décrit ci-dessous correspond à l'adressage OSC suivant :
 
-		/my_level
-		/my_level/my_value
-		/my_level/my_value.other
-		/my_level/my_value.other/1
-		/my_level/my_value.other/2
-		/my_level/my_value.other/3
-		/my_level/my_value.other/4
-		/my_level/my_value.other/5
-		/my_level/my_value.other/many_values.1
-		/my_level/my_value.other/many_values.2
-		/my_level/my_value.other/many_values.3
-		/my_level/my_value.other/many_values.4
-		/my_level/my_value.other/many_values.5
+		/my_level.1
+		/my_level.1/my_value
+		/my_level.1/my_value.other
+		/my_level.1/my_value.other/1
+		/my_level.1/my_value.other/2
+		/my_level.1/my_value.other/3
+		/my_level.1/my_value.other/4
+		/my_level.1/my_value.other/5
+		/my_level.1/my_value.other/many_values.1
+		/my_level.1/my_value.other/many_values.2
+		/my_level.1/my_value.other/many_values.3
+		/my_level.1/my_value.other/many_values.4
+		/my_level.1/my_value.other/many_values.5
 	-->
 
 
@@ -25,20 +25,20 @@
 <application author="OSSIA" version="0.2" name="myApplicationName" type="proxy">
   
 
-
   	<!--"describe the node below"-->
 	<!--
-	Le noeud ci dessous décrit un niveau de hiérachie du namespace
-	address: "my_level" (correspond à l'adresse OSC /mylevel)
+	Le noeud ci dessous décrit un niveau de hiérachie du namespace qui correspond à l'adresse OSC /my_level.1
+	name: "my_level"
+    instance: "1"
 	priority : ordre d'excution (0 : pas de priorité , 1 est envoyé premier, 2 est envoyé en deuxième, possibilité d'avoir des priorités négatives).
 	tag : autant de tag que souhaité, entre espace. "audio video lumiere couleur position"....
 	description : le commentaire xml est la description du noeud en dessous.
 	object : null ou data
 	-->
 
- 	 <node address="my_level" priority="0" tag="audio">
+ 	 <node name="my_level" instance="1" priority="0" tag="audio">
    
-
+   
 	   	<!--"describe the sub node below"-->
 	   	<!--
 	   	En plus des méta-informations liées au noeud, peuvent se rajouter des attibuts de l'objet data :
@@ -71,14 +71,14 @@
 
 		en définissant un dataspace et une unité, il est possible d'envoyer à une adresse une valeur du autre unité (la conversion se fera en interne). exemple: si on précise dataspace="distance" et dataspaceUnit="meters" il est possible d'envoyer "2000 cm" et la valeur sera convertie en mètre en interne.
 		-->
-		<node address="my_value" priority="1" tag="color couleur palette_couleur" object="Data" service="parameter" type="integer" rangeBounds="0 255" rangeClipmode="both" repetitionsFilter="0" rampDrive="system" rampFonction="smoothPolynomial" dataspace="color" dataspaceUnit="rgb8" />
+		<data address="my_value" priority="1" tag="color couleur palette_couleur" service="parameter" type="integer" rangeBounds="0 255" rangeClipmode="both" repetitionsFilter="0" rampDrive="system" rampFonction="smoothPolynomial" dataspace="color" dataspaceUnit="rgb8" />
 
 	   
 	   	<!--
 		Le noeud ci dessous décrit un niveau de hiérachie du namespace
 		address: "my_value.other" (correspond à l'adresse OSC /mylevel/my_value.other)
 	  	-->
-	   	<node address="my_value.other">
+	   	<data name="my_value" instance="other" priority="2" tag="level" service="message" type="string">
 				
 			<!--Noeud pour décrire plusieurs instances qui auront les mêmes attributs
 			exemple : 
@@ -87,9 +87,8 @@
 			/my_level/my_value.other/3
 			/my_level/my_value.other/4
 			/my_level/my_value.other/5
-			mettre "instance" en address et préciser le nombre d'instance.
 			-->
-			<node address="instance" instance="5" object="Data" service="parameter"/>
+			<data name="[5]" service="parameter"/>
   	
   			<!--Noeud pour décrire plusieurs instances qui auront les mêmes attributs
 			exemple : 
@@ -98,11 +97,10 @@
 			/my_level/my_value.other/many_values.3
 			/my_level/my_value.other/many_values.4
 			/my_level/my_value.other/many_values.5
-			mettre "many_values" en address et préciser le nombre d'instance.
 			-->
-			<node address="many_values" instance="5" object="Data" service="parameter"/>
+			<data name="many_values" instance="[5]" service="parameter"/>
 
-	  	</node>
+	  	</data>
   	</node>
 </application>
 </jamoma>
