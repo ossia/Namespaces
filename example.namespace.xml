@@ -21,25 +21,23 @@
 <jamoma version="0.6">
 
 
-<!--"Le noeud application sert à identifier le namespace"-->
-<application author="OSSIA" version="0.2" name="myApplicationName" type="proxy">
+<!--"Le noeud device sert à identifier le namespace"-->
+<device name="myApplicationName" author="OSSIA" version="0.2">
   
 
-  	<!--"describe the node below"-->
+  	<!--"ceci est la description du noeud sous-jacent"-->
 	<!--
 	Le noeud ci dessous décrit un niveau de hiérachie du namespace qui correspond à l'adresse OSC /my_level.1
 	name: "my_level"
     instance: "1"
 	priority : ordre d'excution (0 : pas de priorité , 1 est envoyé premier, 2 est envoyé en deuxième, possibilité d'avoir des priorités négatives).
 	tag : autant de tag que souhaité, entre espace. "audio video lumiere couleur position"....
-	description : le commentaire xml est la description du noeud en dessous.
+	description : le commentaire xml ci-dessus est la description du noeud en dessous.
 	object : null ou data
 	-->
-
  	 <node name="my_level" instance="1" priority="0" tag="audio">
    
    
-	   	<!--"describe the sub node below"-->
 	   	<!--
 	   	En plus des méta-informations liées au noeud, peuvent se rajouter des attibuts de l'objet data :
 	  	service : parameter (accessible en lecture et écriture) message (accessible en écriture)  return (accessible en lecture)
@@ -71,16 +69,17 @@
 
 		en définissant un dataspace et une unité, il est possible d'envoyer à une adresse une valeur du autre unité (la conversion se fera en interne). exemple: si on précise dataspace="distance" et dataspaceUnit="meters" il est possible d'envoyer "2000 cm" et la valeur sera convertie en mètre en interne.
 		-->
-		<data address="my_value" priority="1" tag="color couleur palette_couleur" service="parameter" type="integer" rangeBounds="0 255" rangeClipmode="both" repetitionsFilter="0" rampDrive="system" rampFonction="smoothPolynomial" dataspace="color" dataspaceUnit="rgb8" />
+		<parameter address="my_value" priority="1" tag="color couleur palette_couleur" type="integer" rangeBounds="0 255" rangeClipmode="both" repetitionsFilter="0" rampDrive="system" rampFonction="smoothPolynomial" dataspace="color" dataspaceUnit="rgb8" />
 
 	   
 	   	<!--
 		Le noeud ci dessous décrit un niveau de hiérachie du namespace
 		address: "my_value.other" (correspond à l'adresse OSC /mylevel/my_value.other)
 	  	-->
-	   	<data name="my_value" instance="other" priority="2" tag="level" service="message" type="string">
-				
-			<!--Noeud pour décrire plusieurs instances qui auront les mêmes attributs
+	   	<message name="my_value" instance="other" priority="2" tag="level" type="string">
+			
+            
+			<!--Le noeud ci dessous en décrit plusieurs avec des noms numérotés
 			exemple : 
 			/my_level/my_value.other/1
 			/my_level/my_value.other/2
@@ -88,9 +87,10 @@
 			/my_level/my_value.other/4
 			/my_level/my_value.other/5
 			-->
-			<data name="[5]" service="parameter"/>
+			<parameter name="[5]"/>
   	
-  			<!--Noeud pour décrire plusieurs instances qui auront les mêmes attributs
+    
+  			<!--Le noeud ci dessous en décrit plusieurs avec des instances numérotés
 			exemple : 
 			/my_level/my_value.other/many_values.1
 			/my_level/my_value.other/many_values.2
@@ -98,9 +98,9 @@
 			/my_level/my_value.other/many_values.4
 			/my_level/my_value.other/many_values.5
 			-->
-			<data name="many_values" instance="[5]" service="parameter"/>
+			<parameter name="many_values" instance="[5]"/>
 
-	  	</data>
+	  	</message>
   	</node>
 </application>
 </jamoma>
