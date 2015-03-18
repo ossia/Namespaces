@@ -1,0 +1,35 @@
+
+{
+	"devices" : {
+		"app" : {
+			"attributes" : {
+				"description" : "this is a description",
+				"priority" : -1,
+				"tags" : "video,audio",
+				"version":"0.2",
+				"author":"renaud"
+			}
+			,
+			"parent" : {
+				"attributes" : {
+					"description" : "this is a description",
+					"priority" : -1,
+					"tags" : "video,audio"
+				}
+				,
+				"name" : {
+					"attributes" : {
+						"instances" : 
+						}
+					}
+				}
+			}
+			,
+			"cousin" : {
+				"description" : "this is a description",
+				"priority" : -1,
+				"tags" : "video,audio"
+			}
+		}
+	}
+}

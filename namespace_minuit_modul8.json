@@ -1,0 +1,4178 @@
+{
+    "attributes": {
+        "author": "garagecube",
+        "name": "modul8",
+        "project": "untitled project",
+        "version": 2.8999999999999999
+    },
+    "data": {
+        "layer.1": {
+            "attributes": {
+                "priority": 2,
+                "service": "model",
+                "tags": " "
+            },
+            "data": {
+                "alpha": {
+                    "attributes": {
+                        "priority": 252,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 1
+                    }
+                },
+                "auto": {
+                    "attributes": {
+                        "priority": 6,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "colorASpeed": {
+                            "attributes": {
+                                "priority": 10,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "colorAdditiveOn": {
+                            "attributes": {
+                                "priority": 18,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": true
+                            }
+                        },
+                        "colorBSpeed": {
+                            "attributes": {
+                                "priority": 12,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "colorCurve": {
+                            "attributes": {
+                                "priority": 6,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 3
+                            }
+                        },
+                        "colorGSpeed": {
+                            "attributes": {
+                                "priority": 14,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "colorModulateOn": {
+                            "attributes": {
+                                "priority": 20,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "colorOn": {
+                            "attributes": {
+                                "priority": 8,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "colorRSpeed": {
+                            "attributes": {
+                                "priority": 16,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "moveCurve": {
+                            "attributes": {
+                                "priority": 38,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 3
+                            }
+                        },
+                        "moveOn": {
+                            "attributes": {
+                                "priority": 40,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "moveSize": {
+                            "attributes": {
+                                "priority": 50,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "moveSpeed": {
+                            "attributes": {
+                                "priority": 46,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "moveStrob": {
+                            "attributes": {
+                                "priority": 44,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "moveXY": {
+                            "attributes": {
+                                "priority": 42,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateOn": {
+                            "attributes": {
+                                "priority": 22,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "rotateStrob": {
+                            "attributes": {
+                                "priority": 24,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateXDirection": {
+                            "attributes": {
+                                "priority": 30,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateXSpeed": {
+                            "attributes": {
+                                "priority": 36,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateYDirection": {
+                            "attributes": {
+                                "priority": 26,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateYSpeed": {
+                            "attributes": {
+                                "priority": 32,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateZDirection": {
+                            "attributes": {
+                                "priority": 28,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateZSpeed": {
+                            "attributes": {
+                                "priority": 34,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "scaleCurve": {
+                            "attributes": {
+                                "priority": 52,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 3
+                            }
+                        },
+                        "scaleOn": {
+                            "attributes": {
+                                "priority": 54,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "scaleSize": {
+                            "attributes": {
+                                "priority": 60,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "scaleSpeed": {
+                            "attributes": {
+                                "priority": 62,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "scaleStrob": {
+                            "attributes": {
+                                "priority": 58,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "scaleXY": {
+                            "attributes": {
+                                "priority": 56,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "blendMode": {
+                    "attributes": {
+                        "priority": 242,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "color": {
+                    "attributes": {
+                        "priority": 164,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "additiveB": {
+                            "attributes": {
+                                "priority": 164,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "additiveG": {
+                            "attributes": {
+                                "priority": 166,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "additiveR": {
+                            "attributes": {
+                                "priority": 168,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "modulateB": {
+                            "attributes": {
+                                "priority": 170,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "modulateG": {
+                            "attributes": {
+                                "priority": 172,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "modulateR": {
+                            "attributes": {
+                                "priority": 174,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                "fieldOfView": {
+                    "attributes": {
+                        "priority": 190,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0.5
+                    }
+                },
+                "hidden": {
+                    "attributes": {
+                        "priority": 250,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": false
+                    }
+                },
+                "media": {
+                    "attributes": {
+                        "priority": 4,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 999
+                    }
+                },
+                "mediaSet": {
+                    "attributes": {
+                        "priority": 2,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "movie": {
+                    "attributes": {
+                        "priority": 150,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "loopMode": {
+                            "attributes": {
+                                "priority": 160,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "playDirection": {
+                            "attributes": {
+                                "priority": 158,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "positionIn": {
+                            "attributes": {
+                                "priority": 152,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "positionOut": {
+                            "attributes": {
+                                "priority": 150,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "shuttle1": {
+                            "attributes": {
+                                "priority": 154,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "shuttle2": {
+                            "attributes": {
+                                "priority": 156,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "speedFactor": {
+                            "attributes": {
+                                "priority": 162,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.25
+                            }
+                        }
+                    }
+                },
+                "pixelFX": {
+                    "attributes": {
+                        "priority": 198,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "blurLevel": {
+                            "attributes": {
+                                "priority": 218,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "blurOn": {
+                            "attributes": {
+                                "priority": 214,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "blurType": {
+                            "attributes": {
+                                "priority": 216,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "contrastBoost": {
+                            "attributes": {
+                                "priority": 232,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "contrastInverse": {
+                            "attributes": {
+                                "priority": 230,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "contrastLevel": {
+                            "attributes": {
+                                "priority": 234,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "contrastOn": {
+                            "attributes": {
+                                "priority": 228,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "lightnessLevel": {
+                            "attributes": {
+                                "priority": 212,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "lightnessOn": {
+                            "attributes": {
+                                "priority": 208,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "lightnessType": {
+                            "attributes": {
+                                "priority": 210,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "lumaOn": {
+                            "attributes": {
+                                "priority": 236,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "lumaPreserveAlpha": {
+                            "attributes": {
+                                "priority": 240,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": true
+                            }
+                        },
+                        "lumaType": {
+                            "attributes": {
+                                "priority": 238,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "noiseAlpha": {
+                            "attributes": {
+                                "priority": 200,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "noiseColored": {
+                            "attributes": {
+                                "priority": 204,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "noiseLevel": {
+                            "attributes": {
+                                "priority": 206,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "noiseOn": {
+                            "attributes": {
+                                "priority": 198,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "noiseRGBOn": {
+                            "attributes": {
+                                "priority": 202,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": true
+                            }
+                        },
+                        "saturationBoost": {
+                            "attributes": {
+                                "priority": 224,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "saturationInverse": {
+                            "attributes": {
+                                "priority": 222,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "saturationLevel": {
+                            "attributes": {
+                                "priority": 226,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "saturationOn": {
+                            "attributes": {
+                                "priority": 220,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        }
+                    }
+                },
+                "position": {
+                    "attributes": {
+                        "priority": 246,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "x": {
+                            "attributes": {
+                                "priority": 248,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "y": {
+                            "attributes": {
+                                "priority": 246,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "record": {
+                    "attributes": {
+                        "priority": 244,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "eraseOn": {
+                            "attributes": {
+                                "priority": 279,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "stopPlayRec": {
+                            "attributes": {
+                                "priority": 244,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "rotation": {
+                    "attributes": {
+                        "priority": 192,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "x": {
+                            "attributes": {
+                                "priority": 196,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "y": {
+                            "attributes": {
+                                "priority": 194,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "z": {
+                            "attributes": {
+                                "priority": 192,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "scale": {
+                    "attributes": {
+                        "priority": 176,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "factorUniform": {
+                            "attributes": {
+                                "priority": 186,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 2
+                            }
+                        },
+                        "factorXYZ": {
+                            "attributes": {
+                                "priority": 184,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 10
+                            }
+                        },
+                        "normalizeOn": {
+                            "attributes": {
+                                "priority": 188,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "uniform": {
+                            "attributes": {
+                                "priority": 182,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "x": {
+                            "attributes": {
+                                "priority": 180,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "y": {
+                            "attributes": {
+                                "priority": 178,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "z": {
+                            "attributes": {
+                                "priority": 176,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "soundOutBalance": {
+                    "attributes": {
+                        "priority": 146,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0.5
+                    }
+                },
+                "soundOutLevel": {
+                    "attributes": {
+                        "priority": 148,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 1
+                    }
+                },
+                "soundOutLinkToAlphaAndCrossfader": {
+                    "attributes": {
+                        "priority": 144,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": true
+                    }
+                },
+                "transformer": {
+                    "attributes": {
+                        "priority": 64,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "matrix": {
+                            "attributes": {
+                                "priority": 116,
+                                "service": "model",
+                                "tags": " "
+                            },
+                            "data": {
+                                "deepSpace": {
+                                    "attributes": {
+                                        "priority": 126,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "extrusionLevel": {
+                                    "attributes": {
+                                        "priority": 124,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "flipXeYe": {
+                                    "attributes": {
+                                        "priority": 118,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "flipXeYu": {
+                                    "attributes": {
+                                        "priority": 122,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "flipXuYe": {
+                                    "attributes": {
+                                        "priority": 116,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "flipXuYu": {
+                                    "attributes": {
+                                        "priority": 120,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "planarSpace": {
+                                    "attributes": {
+                                        "priority": 128,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "resize": {
+                                    "attributes": {
+                                        "priority": 136,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": true
+                                    }
+                                },
+                                "xValue": {
+                                    "attributes": {
+                                        "priority": 134,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 2
+                                    }
+                                },
+                                "yValue": {
+                                    "attributes": {
+                                        "priority": 132,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 2
+                                    }
+                                },
+                                "zValue": {
+                                    "attributes": {
+                                        "priority": 130,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 1
+                                    }
+                                }
+                            }
+                        },
+                        "on": {
+                            "attributes": {
+                                "priority": 64,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "particle": {
+                            "attributes": {
+                                "priority": 68,
+                                "service": "model",
+                                "tags": " "
+                            },
+                            "data": {
+                                "alphaFadeIn": {
+                                    "attributes": {
+                                        "priority": 76,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": true
+                                    }
+                                },
+                                "alphaFadeOut": {
+                                    "attributes": {
+                                        "priority": 74,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": true
+                                    }
+                                },
+                                "applyLocalAngleOn": {
+                                    "attributes": {
+                                        "priority": 68,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": true
+                                    }
+                                },
+                                "cutOffAngleX": {
+                                    "attributes": {
+                                        "priority": 86,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.20000000000000001
+                                    }
+                                },
+                                "cutOffAngleY": {
+                                    "attributes": {
+                                        "priority": 84,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.20000000000000001
+                                    }
+                                },
+                                "gravity": {
+                                    "attributes": {
+                                        "priority": 80,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "life": {
+                                    "attributes": {
+                                        "priority": 90,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.20000000000000001
+                                    }
+                                },
+                                "localScale": {
+                                    "attributes": {
+                                        "priority": 78,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.5
+                                    }
+                                },
+                                "particlesPerSec": {
+                                    "attributes": {
+                                        "priority": 92,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.20000000000000001
+                                    }
+                                },
+                                "radiusSource": {
+                                    "attributes": {
+                                        "priority": 82,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.20000000000000001
+                                    }
+                                },
+                                "scaleFadeIn": {
+                                    "attributes": {
+                                        "priority": 72,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": false
+                                    }
+                                },
+                                "scaleFadeOut": {
+                                    "attributes": {
+                                        "priority": 70,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": false
+                                    }
+                                },
+                                "speed": {
+                                    "attributes": {
+                                        "priority": 88,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.5
+                                    }
+                                }
+                            }
+                        },
+                        "patch": {
+                            "attributes": {
+                                "priority": 94,
+                                "service": "model",
+                                "tags": " "
+                            },
+                            "data": {
+                                "colorOn": {
+                                    "attributes": {
+                                        "priority": 104,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": true
+                                    }
+                                },
+                                "dmapingAlphaOn": {
+                                    "attributes": {
+                                        "priority": 102,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": false
+                                    }
+                                },
+                                "dmappingLevel": {
+                                    "attributes": {
+                                        "priority": 110,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "fillMode": {
+                                    "attributes": {
+                                        "priority": 112,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "noiseLevel": {
+                                    "attributes": {
+                                        "priority": 108,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "shapeType": {
+                                    "attributes": {
+                                        "priority": 114,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "soundInputValue": {
+                                    "attributes": {
+                                        "priority": 106,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "soundInputVdelayOn": {
+                                    "attributes": {
+                                        "priority": 100,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": false
+                                    }
+                                },
+                                "subdivX": {
+                                    "attributes": {
+                                        "priority": 98,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 50
+                                    }
+                                },
+                                "subdivY": {
+                                    "attributes": {
+                                        "priority": 96,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 50
+                                    }
+                                },
+                                "thickness": {
+                                    "attributes": {
+                                        "priority": 94,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 1
+                                    }
+                                }
+                            }
+                        },
+                        "type": {
+                            "attributes": {
+                                "priority": 66,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "transition": {
+                    "attributes": {
+                        "priority": 138,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "duration": {
+                            "attributes": {
+                                "priority": 142,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "durationDelta": {
+                            "attributes": {
+                                "priority": 138,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "type": {
+                            "attributes": {
+                                "priority": 140,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "layer.2": {
+            "attributes": {
+                "priority": 3,
+                "service": "model",
+                "tags": " "
+            },
+            "data": {
+                "alpha": {
+                    "attributes": {
+                        "priority": 253,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 1
+                    }
+                },
+                "auto": {
+                    "attributes": {
+                        "priority": 7,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "colorASpeed": {
+                            "attributes": {
+                                "priority": 11,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "colorAdditiveOn": {
+                            "attributes": {
+                                "priority": 19,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": true
+                            }
+                        },
+                        "colorBSpeed": {
+                            "attributes": {
+                                "priority": 13,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "colorCurve": {
+                            "attributes": {
+                                "priority": 7,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 3
+                            }
+                        },
+                        "colorGSpeed": {
+                            "attributes": {
+                                "priority": 15,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "colorModulateOn": {
+                            "attributes": {
+                                "priority": 21,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "colorOn": {
+                            "attributes": {
+                                "priority": 9,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "colorRSpeed": {
+                            "attributes": {
+                                "priority": 17,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "moveCurve": {
+                            "attributes": {
+                                "priority": 39,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 3
+                            }
+                        },
+                        "moveOn": {
+                            "attributes": {
+                                "priority": 41,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "moveSize": {
+                            "attributes": {
+                                "priority": 51,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "moveSpeed": {
+                            "attributes": {
+                                "priority": 47,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "moveStrob": {
+                            "attributes": {
+                                "priority": 45,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "moveXY": {
+                            "attributes": {
+                                "priority": 43,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateOn": {
+                            "attributes": {
+                                "priority": 23,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "rotateStrob": {
+                            "attributes": {
+                                "priority": 25,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateXDirection": {
+                            "attributes": {
+                                "priority": 31,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateXSpeed": {
+                            "attributes": {
+                                "priority": 37,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateYDirection": {
+                            "attributes": {
+                                "priority": 27,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateYSpeed": {
+                            "attributes": {
+                                "priority": 33,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateZDirection": {
+                            "attributes": {
+                                "priority": 29,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "rotateZSpeed": {
+                            "attributes": {
+                                "priority": 35,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "scaleCurve": {
+                            "attributes": {
+                                "priority": 53,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 3
+                            }
+                        },
+                        "scaleOn": {
+                            "attributes": {
+                                "priority": 55,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "scaleSize": {
+                            "attributes": {
+                                "priority": 61,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "scaleSpeed": {
+                            "attributes": {
+                                "priority": 63,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "scaleStrob": {
+                            "attributes": {
+                                "priority": 59,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "scaleXY": {
+                            "attributes": {
+                                "priority": 57,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "blendMode": {
+                    "attributes": {
+                        "priority": 243,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "color": {
+                    "attributes": {
+                        "priority": 165,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "additiveB": {
+                            "attributes": {
+                                "priority": 165,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "additiveG": {
+                            "attributes": {
+                                "priority": 167,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "additiveR": {
+                            "attributes": {
+                                "priority": 169,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "modulateB": {
+                            "attributes": {
+                                "priority": 171,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "modulateG": {
+                            "attributes": {
+                                "priority": 173,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "modulateR": {
+                            "attributes": {
+                                "priority": 175,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                "fieldOfView": {
+                    "attributes": {
+                        "priority": 191,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0.5
+                    }
+                },
+                "hidden": {
+                    "attributes": {
+                        "priority": 251,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": false
+                    }
+                },
+                "media": {
+                    "attributes": {
+                        "priority": 5,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 999
+                    }
+                },
+                "mediaSet": {
+                    "attributes": {
+                        "priority": 3,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "movie": {
+                    "attributes": {
+                        "priority": 151,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "loopMode": {
+                            "attributes": {
+                                "priority": 161,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "playDirection": {
+                            "attributes": {
+                                "priority": 159,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "positionIn": {
+                            "attributes": {
+                                "priority": 153,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "positionOut": {
+                            "attributes": {
+                                "priority": 151,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "shuttle1": {
+                            "attributes": {
+                                "priority": 155,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "shuttle2": {
+                            "attributes": {
+                                "priority": 157,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "speedFactor": {
+                            "attributes": {
+                                "priority": 163,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.25
+                            }
+                        }
+                    }
+                },
+                "pixelFX": {
+                    "attributes": {
+                        "priority": 199,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "blurLevel": {
+                            "attributes": {
+                                "priority": 219,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "blurOn": {
+                            "attributes": {
+                                "priority": 215,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "blurType": {
+                            "attributes": {
+                                "priority": 217,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "contrastBoost": {
+                            "attributes": {
+                                "priority": 233,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "contrastInverse": {
+                            "attributes": {
+                                "priority": 231,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "contrastLevel": {
+                            "attributes": {
+                                "priority": 235,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "contrastOn": {
+                            "attributes": {
+                                "priority": 229,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "lightnessLevel": {
+                            "attributes": {
+                                "priority": 213,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "lightnessOn": {
+                            "attributes": {
+                                "priority": 209,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "lightnessType": {
+                            "attributes": {
+                                "priority": 211,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "lumaOn": {
+                            "attributes": {
+                                "priority": 237,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "lumaPreserveAlpha": {
+                            "attributes": {
+                                "priority": 241,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": true
+                            }
+                        },
+                        "lumaType": {
+                            "attributes": {
+                                "priority": 239,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "noiseAlpha": {
+                            "attributes": {
+                                "priority": 201,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "noiseColored": {
+                            "attributes": {
+                                "priority": 205,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "noiseLevel": {
+                            "attributes": {
+                                "priority": 207,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "noiseOn": {
+                            "attributes": {
+                                "priority": 199,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "noiseRGBOn": {
+                            "attributes": {
+                                "priority": 203,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": true
+                            }
+                        },
+                        "saturationBoost": {
+                            "attributes": {
+                                "priority": 225,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "saturationInverse": {
+                            "attributes": {
+                                "priority": 223,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "saturationLevel": {
+                            "attributes": {
+                                "priority": 227,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "saturationOn": {
+                            "attributes": {
+                                "priority": 221,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        }
+                    }
+                },
+                "position": {
+                    "attributes": {
+                        "priority": 247,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "x": {
+                            "attributes": {
+                                "priority": 249,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "y": {
+                            "attributes": {
+                                "priority": 247,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "record": {
+                    "attributes": {
+                        "priority": 245,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "eraseOn": {
+                            "attributes": {
+                                "priority": 280,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "stopPlayRec": {
+                            "attributes": {
+                                "priority": 245,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "rotation": {
+                    "attributes": {
+                        "priority": 193,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "x": {
+                            "attributes": {
+                                "priority": 197,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "y": {
+                            "attributes": {
+                                "priority": 195,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "z": {
+                            "attributes": {
+                                "priority": 193,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "scale": {
+                    "attributes": {
+                        "priority": 177,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "factorUniform": {
+                            "attributes": {
+                                "priority": 187,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 2
+                            }
+                        },
+                        "factorXYZ": {
+                            "attributes": {
+                                "priority": 185,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 10
+                            }
+                        },
+                        "normalizeOn": {
+                            "attributes": {
+                                "priority": 189,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "uniform": {
+                            "attributes": {
+                                "priority": 183,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "x": {
+                            "attributes": {
+                                "priority": 181,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "y": {
+                            "attributes": {
+                                "priority": 179,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "z": {
+                            "attributes": {
+                                "priority": 177,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "soundOutBalance": {
+                    "attributes": {
+                        "priority": 147,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0.5
+                    }
+                },
+                "soundOutLevel": {
+                    "attributes": {
+                        "priority": 149,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 1
+                    }
+                },
+                "soundOutLinkToAlphaAndCrossfader": {
+                    "attributes": {
+                        "priority": 145,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": true
+                    }
+                },
+                "transformer": {
+                    "attributes": {
+                        "priority": 65,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "matrix": {
+                            "attributes": {
+                                "priority": 117,
+                                "service": "model",
+                                "tags": " "
+                            },
+                            "data": {
+                                "deepSpace": {
+                                    "attributes": {
+                                        "priority": 127,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "extrusionLevel": {
+                                    "attributes": {
+                                        "priority": 125,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "flipXeYe": {
+                                    "attributes": {
+                                        "priority": 119,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "flipXeYu": {
+                                    "attributes": {
+                                        "priority": 123,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "flipXuYe": {
+                                    "attributes": {
+                                        "priority": 117,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "flipXuYu": {
+                                    "attributes": {
+                                        "priority": 121,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "planarSpace": {
+                                    "attributes": {
+                                        "priority": 129,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "resize": {
+                                    "attributes": {
+                                        "priority": 137,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": true
+                                    }
+                                },
+                                "xValue": {
+                                    "attributes": {
+                                        "priority": 135,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 2
+                                    }
+                                },
+                                "yValue": {
+                                    "attributes": {
+                                        "priority": 133,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 2
+                                    }
+                                },
+                                "zValue": {
+                                    "attributes": {
+                                        "priority": 131,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 1
+                                    }
+                                }
+                            }
+                        },
+                        "on": {
+                            "attributes": {
+                                "priority": 65,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "particle": {
+                            "attributes": {
+                                "priority": 69,
+                                "service": "model",
+                                "tags": " "
+                            },
+                            "data": {
+                                "alphaFadeIn": {
+                                    "attributes": {
+                                        "priority": 77,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": true
+                                    }
+                                },
+                                "alphaFadeOut": {
+                                    "attributes": {
+                                        "priority": 75,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": true
+                                    }
+                                },
+                                "applyLocalAngleOn": {
+                                    "attributes": {
+                                        "priority": 69,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": true
+                                    }
+                                },
+                                "cutOffAngleX": {
+                                    "attributes": {
+                                        "priority": 87,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.20000000000000001
+                                    }
+                                },
+                                "cutOffAngleY": {
+                                    "attributes": {
+                                        "priority": 85,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.20000000000000001
+                                    }
+                                },
+                                "gravity": {
+                                    "attributes": {
+                                        "priority": 81,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "life": {
+                                    "attributes": {
+                                        "priority": 91,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.20000000000000001
+                                    }
+                                },
+                                "localScale": {
+                                    "attributes": {
+                                        "priority": 79,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.5
+                                    }
+                                },
+                                "particlesPerSec": {
+                                    "attributes": {
+                                        "priority": 93,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.20000000000000001
+                                    }
+                                },
+                                "radiusSource": {
+                                    "attributes": {
+                                        "priority": 83,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.20000000000000001
+                                    }
+                                },
+                                "scaleFadeIn": {
+                                    "attributes": {
+                                        "priority": 73,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": false
+                                    }
+                                },
+                                "scaleFadeOut": {
+                                    "attributes": {
+                                        "priority": 71,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": false
+                                    }
+                                },
+                                "speed": {
+                                    "attributes": {
+                                        "priority": 89,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0.5
+                                    }
+                                }
+                            }
+                        },
+                        "patch": {
+                            "attributes": {
+                                "priority": 95,
+                                "service": "model",
+                                "tags": " "
+                            },
+                            "data": {
+                                "colorOn": {
+                                    "attributes": {
+                                        "priority": 105,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": true
+                                    }
+                                },
+                                "dmapingAlphaOn": {
+                                    "attributes": {
+                                        "priority": 103,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": false
+                                    }
+                                },
+                                "dmappingLevel": {
+                                    "attributes": {
+                                        "priority": 111,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "fillMode": {
+                                    "attributes": {
+                                        "priority": 113,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "noiseLevel": {
+                                    "attributes": {
+                                        "priority": 109,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "shapeType": {
+                                    "attributes": {
+                                        "priority": 115,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "soundInputValue": {
+                                    "attributes": {
+                                        "priority": 107,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 0
+                                    }
+                                },
+                                "soundInputVdelayOn": {
+                                    "attributes": {
+                                        "priority": 101,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": false
+                                    }
+                                },
+                                "subdivX": {
+                                    "attributes": {
+                                        "priority": 99,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 50
+                                    }
+                                },
+                                "subdivY": {
+                                    "attributes": {
+                                        "priority": 97,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 50
+                                    }
+                                },
+                                "thickness": {
+                                    "attributes": {
+                                        "priority": 95,
+                                        "rangeBounds": [
+                                            0,
+                                            1
+                                        ],
+                                        "rangeClipmode": "both",
+                                        "service": "parameter",
+                                        "tags": " ",
+                                        "value": 1
+                                    }
+                                }
+                            }
+                        },
+                        "type": {
+                            "attributes": {
+                                "priority": 67,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "transition": {
+                    "attributes": {
+                        "priority": 139,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "duration": {
+                            "attributes": {
+                                "priority": 143,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0.5
+                            }
+                        },
+                        "durationDelta": {
+                            "attributes": {
+                                "priority": 139,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "type": {
+                            "attributes": {
+                                "priority": 141,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "mask": {
+            "attributes": {
+                "priority": 1,
+                "service": "model",
+                "tags": " "
+            },
+            "data": {
+                "color": {
+                    "attributes": {
+                        "priority": 282,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "additiveB": {
+                            "attributes": {
+                                "priority": 282,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "additiveG": {
+                            "attributes": {
+                                "priority": 283,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "additiveR": {
+                            "attributes": {
+                                "priority": 284,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "modulateA": {
+                            "attributes": {
+                                "priority": 298,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "modulateB": {
+                            "attributes": {
+                                "priority": 297,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "modulateG": {
+                            "attributes": {
+                                "priority": 296,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "modulateR": {
+                            "attributes": {
+                                "priority": 295,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                "media": {
+                    "attributes": {
+                        "priority": 292,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": -1
+                    }
+                },
+                "movie": {
+                    "attributes": {
+                        "priority": 281,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "speedFactor": {
+                            "attributes": {
+                                "priority": 281,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                "position": {
+                    "attributes": {
+                        "priority": 293,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "x": {
+                            "attributes": {
+                                "priority": 294,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "y": {
+                            "attributes": {
+                                "priority": 293,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "scale": {
+                    "attributes": {
+                        "priority": 285,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "uniform": {
+                            "attributes": {
+                                "priority": 285,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "x": {
+                            "attributes": {
+                                "priority": 288,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        },
+                        "y": {
+                            "attributes": {
+                                "priority": 287,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 1
+                            }
+                        }
+                    }
+                },
+                "show": {
+                    "attributes": {
+                        "priority": 286,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "inOutput": {
+                            "attributes": {
+                                "priority": 291,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        },
+                        "inPreview": {
+                            "attributes": {
+                                "priority": 286,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "surfaceBlend": {
+                    "attributes": {
+                        "priority": 289,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "Dest": {
+                            "attributes": {
+                                "priority": 290,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": "INV_SRC_ALPHA"
+                            }
+                        },
+                        "Src": {
+                            "attributes": {
+                                "priority": 289,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": "SRC_ALPHA"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "master": {
+            "attributes": {
+                "priority": 1,
+                "service": "model",
+                "tags": " "
+            },
+            "data": {
+                "TimeRecPosition": {
+                    "attributes": {
+                        "priority": 271,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0.0
+                    }
+                },
+                "addColorB": {
+                    "attributes": {
+                        "priority": 262,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "addColorG": {
+                    "attributes": {
+                        "priority": 263,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "addColorR": {
+                    "attributes": {
+                        "priority": 264,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "alpha": {
+                    "attributes": {
+                        "priority": 268,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 1
+                    }
+                },
+                "backgroundColorB": {
+                    "attributes": {
+                        "priority": 265,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "backgroundColorG": {
+                    "attributes": {
+                        "priority": 266,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "backgroundColorR": {
+                    "attributes": {
+                        "priority": 267,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "crossfader": {
+                    "attributes": {
+                        "priority": 274,
+                        "service": "model",
+                        "tags": " "
+                    },
+                    "data": {
+                        "alphaGroupAOn": {
+                            "attributes": {
+                                "priority": 275,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "alphaGroupBOn": {
+                            "attributes": {
+                                "priority": 277,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "scaleGroupAOn": {
+                            "attributes": {
+                                "priority": 274,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "scaleGroupBOn": {
+                            "attributes": {
+                                "priority": 276,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": false
+                            }
+                        },
+                        "slider": {
+                            "attributes": {
+                                "priority": 278,
+                                "rangeBounds": [
+                                    0,
+                                    1
+                                ],
+                                "rangeClipmode": "both",
+                                "service": "parameter",
+                                "tags": " ",
+                                "value": 0
+                            }
+                        }
+                    }
+                },
+                "flash": {
+                    "attributes": {
+                        "priority": 255,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": false
+                    }
+                },
+                "invColorB": {
+                    "attributes": {
+                        "priority": 259,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "invColorG": {
+                    "attributes": {
+                        "priority": 260,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "invColorR": {
+                    "attributes": {
+                        "priority": 261,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "layerSetGroupA": {
+                    "attributes": {
+                        "priority": 273,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "layerSetGroupB": {
+                    "attributes": {
+                        "priority": 272,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "scale": {
+                    "attributes": {
+                        "priority": 269,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0.5
+                    }
+                },
+                "soundLevelCapture": {
+                    "attributes": {
+                        "priority": 258,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0.0
+                    }
+                },
+                "soundOutLevel": {
+                    "attributes": {
+                        "priority": 256,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                },
+                "speed": {
+                    "attributes": {
+                        "priority": 270,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0.5
+                    }
+                },
+                "still": {
+                    "attributes": {
+                        "priority": 254,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": false
+                    }
+                },
+                "traceLevel": {
+                    "attributes": {
+                        "priority": 257,
+                        "rangeBounds": [
+                            0,
+                            1
+                        ],
+                        "rangeClipmode": "both",
+                        "service": "parameter",
+                        "tags": " ",
+                        "value": 0
+                    }
+                }
+            }
+        }
+    }
+}

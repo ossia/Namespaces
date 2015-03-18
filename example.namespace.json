@@ -1,0 +1,27 @@
+
+{
+	"device" : {
+		"attributes" : {
+			"name" : "app",
+			"instance" : "",
+			"description" : "this is a description",
+			"priority" : -1,
+			"tags" : "video,audio"
+			}
+			,
+		"data" : {
+			"parent" : {
+				"attributes" : {
+				"instance" : "",
+				"description" : "this is a description",
+				"priority" : -1,
+				"tags" : "video,audio"
+				}
+			,
+			"data" : {
+				"t" : 1
+			}
+			}
+		}
+	}
+}
