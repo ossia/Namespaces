@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <application author="Renaud Rubiano" version="v1" name="VDMX" type="proxy">
+	<layer.1 object="Container" service="model" priority="10">
+		<alpha object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="1.000"/>
+		<position>
+			<x object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="0.5"/>
+			<y object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="0.5"/>
+		</position>
+		<scale>
+			<x object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="0.5"/>
+			<y object="Data" service="parameter" type="decimal" rangeBounds="0 1" repetitionsFilter="1" valueDefault="0.5"/>
+		</scale>
+	</layer.1>
+ </application>>
+</jamoma>
+
+
+
+
+
