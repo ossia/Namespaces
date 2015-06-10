@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <!--
 		Le namespace, décrit ci-dessous correspond à l'adressage OSC suivant :
 
@@ -14,95 +15,93 @@
 		/my_level/my_value.other/many_values.3
 		/my_level/my_value.other/many_values.4
 		/my_level/my_value.other/many_values.5
-	-->
+-->
 
-
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <jamoma version="0.6">
-
-
-<!--"Le noeud application sert à identifier le namespace"-->
-<application author="OSSIA" version="0.2" name="myApplicationName" type="proxy">
-  
-
-
-  	<!--"describe the node below"-->
-	<!--
-	Le noeud ci dessous décrit un niveau de hiérachie du namespace
-	address: "my_level" (correspond à l'adresse OSC /mylevel)
-	priority : ordre d'excution (0 : pas de priorité , 1 est envoyé premier, 2 est envoyé en deuxième, possibilité d'avoir des priorités négatives).
-	tag : autant de tag que souhaité, entre espace. "audio video lumiere couleur position"....
-	description : le commentaire xml est la description du noeud en dessous.
-	object : null ou data
-	-->
-
- 	 <node address="my_level" priority="0" tag="audio">
-   
-
-	   	<!--"describe the sub node below"-->
-	   	<!--
-	   	En plus des méta-informations liées au noeud, peuvent se rajouter des attibuts de l'objet data :
-	  	service : parameter (accessible en lecture et écriture) message (accessible en écriture)  return (accessible en lecture)
-		type : none (absence de valeur) generic (n'importe quel type et nombre de valeur) boolean (O ou 1) integer (entier) decimal string (texte) array (liste)
-		rangeBounds : valeur min et max ou enumération pour les strings
-		rangeClipmode : c'est l'attitude aux bornes  none (les bornes sont indicatives) both (restriction à l'intérieur des bornes) low (restriction uniquement à la borne basse) high (restriction uniquement à la borne haute) 
-		repetitionsFilter  : 1 ou 0 filtrage des répétions. 1 (ne prend pas en compte la valeur si elle est envoyé une seconde fois)
-
-
-		En definissant une rampDrive et une rampFonction il est poosible d'envoyer "x ramp 2000" pour atteindre la valeur x en 2000ms, selon la courbe précisée (rampFonction)
-
-		rampDrive : none ou system (moteur de rampe interne ou logiciel (max, ou midi...))
-		rampFonction : linear easeInBack easeInOutBack easeOutBack easeInBounce easeInOutBounce easeOutBounce easeInCircular easeInOutCircular easeOutCircular easeInCubic easeInOutCubic easeOutCubic easeInElastic easeInOutElastic easeOutElastic easeInExponential easeInOutExponential easeOutExponential easeInQuadratic easeInOutQuadratic easeOutQuadratic easeInQuartic easeInOutQuartic easeOutQuartic easeInQuintic easeInOutQuintic easeOutQuintic easeInSine easeInOutSine easeOutSine exponential freehand logarithm lowpass power smoothPolynomial tanh bartlett blackman blackmanHarris expodec gauss hamming hanning kaiser nuttall rectangular rosenbergGlottalPulse trapezoid tukey welch
-
-		dataspace et dataspaceUnit sont liés.
-		dataspace : none color angle distance gain orientation position speed temperature time
-		dataspaceUnit : type de d'unité, dépendant du dataspace (voir le tableau ci dessous)
+	
+	
+	<!--"Le noeud application sert à identifier le namespace"-->
+	<application author="OSSIA" version="0.2" name="myApplicationName" type="proxy">
 		
-		dataspace    // dataspaceUnit
-		color			cmy hsl rgb rgb8 hsv
-		angle			degree (deg) radian (rad)
-		distance		meters (m) centimeters (cm) inches (\") feet (')
-		gain			linear midigain dB (db)
-		orientation		euler ypr axis xyza quaternion (quat)
-		position		cart3D (xyz) cart2D(xy) spherical (aed) polar (ad) openGL cylindrical (daz)
-		speed			mph (mi/h) kmph (km/h) m/s kn fps (ft/s)
-		temperature		Celcius (C) Fahrenheit (F) Kelvin (K)
-		time			bark bpm cents mel midinote millisecond (ms) Hertz (fps Hz hz) sample second (s) speed
-
-		en définissant un dataspace et une unité, il est possible d'envoyer à une adresse une valeur du autre unité (la conversion se fera en interne). exemple: si on précise dataspace="distance" et dataspaceUnit="meters" il est possible d'envoyer "2000 cm" et la valeur sera convertie en mètre en interne.
-		-->
-		<node address="my_value" priority="1" tag="color couleur palette_couleur" object="Data" service="parameter" type="integer" rangeBounds="0 255" rangeClipmode="both" repetitionsFilter="0" rampDrive="system" rampFonction="smoothPolynomial" dataspace="color" dataspaceUnit="rgb8" />
-
-	   
-	   	<!--
+		
+		
+		<!--"describe the node below"-->
+		<!--
 		Le noeud ci dessous décrit un niveau de hiérachie du namespace
-		address: "my_value.other" (correspond à l'adresse OSC /mylevel/my_value.other)
-	  	-->
-	   	<node address="my_value.other">
+		address: "my_level" (correspond à l'adresse OSC /mylevel)
+		priority : ordre d'excution (0 : pas de priorité , 1 est envoyé premier, 2 est envoyé en deuxième, possibilité d'avoir des priorités négatives).
+		tag : autant de tag que souhaité, entre espace. "audio video lumiere couleur position"....
+		description : le commentaire xml est la description du noeud en dessous.
+		object : null ou data
+		-->
+	
+	 	<node address="my_level" priority="0" tag="audio">
+	
+	
+	   		<!--"describe the sub node below"-->
+	   		<!--
+	   		En plus des méta-informations liées au noeud, peuvent se rajouter des attibuts de l'objet data :
+	  		service : parameter (accessible en lecture et écriture) message (accessible en écriture)  return (accessible en lecture)
+			type : none (absence de valeur) generic (n'importe quel type et nombre de valeur) boolean (O ou 1) integer (entier) decimal string (texte) array (liste)
+			rangeBounds : valeur min et max ou enumération pour les strings
+			rangeClipmode : c'est l'attitude aux bornes  none (les bornes sont indicatives) both (restriction à l'intérieur des bornes) low (restriction uniquement à la borne basse) high (restriction uniquement à la borne haute) 
+			repetitionsFilter  : 1 ou 0 filtrage des répétions. 1 (ne prend pas en compte la valeur si elle est envoyé une seconde fois)
+			
+			
+			En definissant une rampDrive et une rampFonction il est poosible d'envoyer "x ramp 2000" pour atteindre la valeur x en 2000ms, selon la courbe précisée (rampFonction)
+			
+			rampDrive : none ou system (moteur de rampe interne ou logiciel (max, ou midi...))
+			rampFonction : linear easeInBack easeInOutBack easeOutBack easeInBounce easeInOutBounce easeOutBounce easeInCircular easeInOutCircular easeOutCircular easeInCubic easeInOutCubic easeOutCubic easeInElastic easeInOutElastic easeOutElastic easeInExponential easeInOutExponential easeOutExponential easeInQuadratic easeInOutQuadratic easeOutQuadratic easeInQuartic easeInOutQuartic easeOutQuartic easeInQuintic easeInOutQuintic easeOutQuintic easeInSine easeInOutSine easeOutSine exponential freehand logarithm lowpass power smoothPolynomial tanh bartlett blackman blackmanHarris expodec gauss hamming hanning kaiser nuttall rectangular rosenbergGlottalPulse trapezoid tukey welch
+			
+			dataspace et dataspaceUnit sont liés.
+			dataspace : none color angle distance gain orientation position speed temperature time
+			dataspaceUnit : type de d'unité, dépendant du dataspace (voir le tableau ci dessous)
+			
+			dataspace    // dataspaceUnit
+			color			cmy hsl rgb rgb8 hsv
+			angle			degree (deg) radian (rad)
+			distance		meters (m) centimeters (cm) inches (\") feet (')
+			gain			linear midigain dB (db)
+			orientation		euler ypr axis xyza quaternion (quat)
+			position		cart3D (xyz) cart2D(xy) spherical (aed) polar (ad) openGL cylindrical (daz)
+			speed			mph (mi/h) kmph (km/h) m/s kn fps (ft/s)
+			temperature		Celcius (C) Fahrenheit (F) Kelvin (K)
+			time			bark bpm cents mel midinote millisecond (ms) Hertz (fps Hz hz) sample second (s) speed
+	
+			en définissant un dataspace et une unité, il est possible d'envoyer à une adresse une valeur du autre unité (la conversion se fera en interne). exemple: si on précise dataspace="distance" et dataspaceUnit="meters" il est possible d'envoyer "2000 cm" et la valeur sera convertie en mètre en interne.
+			-->
+			<node address="my_value" priority="1" tag="color couleur palette_couleur" object="Data" service="parameter" type="integer" rangeBounds="0 255" rangeClipmode="both" repetitionsFilter="0" rampDrive="system" rampFonction="smoothPolynomial" dataspace="color" dataspaceUnit="rgb8" />
+	
+	   
+	   		<!--
+			Le noeud ci dessous décrit un niveau de hiérachie du namespace
+			address: "my_value.other" (correspond à l'adresse OSC /mylevel/my_value.other)
+	  		-->
+	   		<node address="my_value.other">
 				
-			<!--Noeud pour décrire plusieurs instances qui auront les mêmes attributs
-			exemple : 
-			/my_level/my_value.other/1
-			/my_level/my_value.other/2
-			/my_level/my_value.other/3
-			/my_level/my_value.other/4
-			/my_level/my_value.other/5
-			mettre "instance" en address et préciser le nombre d'instance.
-			-->
-			<node address="instance" instance="5" object="Data" service="parameter"/>
-  	
-  			<!--Noeud pour décrire plusieurs instances qui auront les mêmes attributs
-			exemple : 
-			/my_level/my_value.other/many_values.1
-			/my_level/my_value.other/many_values.2
-			/my_level/my_value.other/many_values.3
-			/my_level/my_value.other/many_values.4
-			/my_level/my_value.other/many_values.5
-			mettre "many_values" en address et préciser le nombre d'instance.
-			-->
-			<node address="many_values" instance="5" object="Data" service="parameter"/>
-
-	  	</node>
-  	</node>
-</application>
+				<!--Noeud pour décrire plusieurs instances qui auront les mêmes attributs
+				exemple : 
+				/my_level/my_value.other/1
+				/my_level/my_value.other/2
+				/my_level/my_value.other/3
+				/my_level/my_value.other/4
+				/my_level/my_value.other/5
+				mettre "instance" en address et préciser le nombre d'instance.
+				-->
+				<node address="instance" instance="5" object="Data" service="parameter"/>
+	
+				<!--Noeud pour décrire plusieurs instances qui auront les mêmes attributs
+				exemple : 
+				/my_level/my_value.other/many_values.1
+				/my_level/my_value.other/many_values.2
+				/my_level/my_value.other/many_values.3
+				/my_level/my_value.other/many_values.4
+				/my_level/my_value.other/many_values.5
+				mettre "many_values" en address et préciser le nombre d'instance.
+				-->
+				<node address="many_values" instance="5" object="Data" service="parameter"/>
+	
+	  		</node>
+		</node>
+	</application>
 </jamoma>
