@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <!--
 		Le namespace, décrit ci-dessous correspond à l'adressage OSC suivant :
 
@@ -16,8 +17,6 @@
 		/my_level.1/my_value.other/many_values.5
 	-->
 
-
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <jamoma version="0.6">
 
 
@@ -102,5 +101,5 @@
 
 	  	</message>
   	</node>
-</application>
+</device>
 </jamoma>
